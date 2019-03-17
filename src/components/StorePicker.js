@@ -2,6 +2,7 @@ import React from "react";
 
 class StorePicker extends React.Component {
   render() {
+    // Comment like this anywhere outside JSX
     return (
       <form className="store-selector">
         {/* This is how you comment inside of JSX */}
