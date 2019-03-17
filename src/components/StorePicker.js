@@ -2,7 +2,7 @@ import React from "react";
 import { getFunName } from "../helpers";
 
 class StorePicker extends React.Component {
-  myInput = React.createRef();
+  myInput = React.createRef(); // if using constructor put this inside of it
 
   /**
    * Use a constructor and bind goToStore
