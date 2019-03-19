@@ -14,7 +14,7 @@ class StorePicker extends React.Component {
    * Instead of declaring a method on the component (if we make goToStore a custom function)
    * we actually declare a property which is going to be set to an arrow function
    * and properties are bound to an instance rather than nothing then we will be able to access
-   * "this" inside of goToStore
+   * "this" inside of goToStore (visit react-notes)
    */
   goToStore = event => {
     // 1. Stop the form from submitting
