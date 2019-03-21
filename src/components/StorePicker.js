@@ -2,20 +2,8 @@ import React from "react";
 import { getFunName } from "../helpers";
 
 class StorePicker extends React.Component {
-  myInput = React.createRef(); // if using constructor put this inside of it
-
-  /**
-   * Use a constructor and bind goToStore
-   * this.goToStore = this.goToStore.bind(this)
-   * make goToStore a function goToStore (event) {}
-   * 
-   *                                  OR
-   * 
-   * Instead of declaring a method on the component (if we make goToStore a custom function)
-   * we actually declare a property which is going to be set to an arrow function
-   * and properties are bound to an instance rather than nothing then we will be able to access
-   * "this" inside of goToStore (visit react-notes)
-   */
+  myInput = React.createRef(); 
+  
   goToStore = event => {
     // 1. Stop the form from submitting
     event.preventDefault();
